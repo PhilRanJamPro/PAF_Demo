@@ -26,3 +26,7 @@ window.onscroll = function () {
     scrolled = false;
   }
 };
+
+window.onload = function() {
+  document.getElementById("audioplayer").play();
+}
